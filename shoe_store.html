@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر أحذية</title>
+    <link rel="stylesheet" href="shoe_store.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1 class="logo">متجر أحذية</h1>
+        <nav class="nav">
+            <a href="#home">الرئيسية</a>
+            <a href="#products">المنتجات</a>
+            <a href="#testimonials">آراء العملاء</a>
+            <a href="#contact">اتصل بنا</a>
+        </nav>
+    </header>
+
+    <section class="content" id="home">
+        <h2>مرحباً بك في متجر أحذية</h2>
+        <p>اكتشف أحدث الاتجاهات في الأحذية في متجر أحذية.</p> 
+        <a href="#products">تسوق الآن</a>
+    </section>
+
+    <h2 class="section-title" id="products">أحذيتنا</h2>
+
+    <section class="cards">
+        <div class="card">
+            <img src="box1.jpg" alt="حذاء Urban Neon برقبة عالية">
+            <h3>حذاء Urban Neon برقبة عالية</h3>
+            <p>$65.00</p>
+            <a href="product1.html">عرض المزيد</a>
+        </div>
+
+        <div class="card">
+            <img src="box2.jpg" alt="حذاء Wave Suede الكاجوال">
+            <h3>حذاء Wave Suede الكاجوال</h3>
+            <p>$55.00</p>
+            <a href="product2.html">عرض المزيد</a>
+        </div>
+
+        <div class="card">
+            <img src="box3.jpg" alt="حذاء عريض بألوان ترابية">
+            <h3>حذاء عريض بألوان ترابية</h3>
+            <p>$50.00</p>
+            <a href="product3.html">عرض المزيد</a>
+        </div>
+
+        <div class="card">
+            <img src="box4.jpg" alt="حذاء الكاجوال الكلاسيكي">
+            <h3>حذاء الكاجوال الكلاسيكي</h3>
+            <p>$48.00</p>
+            <a href="product4.html">عرض المزيد</a>
+        </div>
+
+        <div class="card">
+            <img src="box5.jpg" alt="حذاء Ocean Vibe الرياضي">
+            <h3>حذاء Ocean Vibe الرياضي</h3>
+            <p>$45.00</p>
+            <a href="product5.html">عرض المزيد</a>
+        </div>
+
+        <div class="card">
+            <img src="box6.jpg" alt="حذاء بوما وأودي">
+            <h3>حذاء بوما وأودي</h3>
+            <p>$75.00</p>
+            <a href="product6.html">عرض المزيد</a>
+        </div>
+
+        <div class="card">
+            <img src="box7.jpg" alt="حذاء التدريب Motex Green-Stride">
+            <h3>حذاء التدريب Motex Green-Stride</h3>
+            <p>$52.00</p>
+            <a href="product7.html">عرض المزيد</a>
+        </div>
+
+        <div class="card">
+            <img src="box8.jpg" alt="حذاء الجري HuiMing Aero-Mesh">
+            <h3>حذاء الجري HuiMing Aero-Mesh</h3>
+            <p>$58.00</p>
+            <a href="product8.html">عرض المزيد</a>
+        </div>
+    </section>
+
+    <!-- ── سكشن آراء العملاء (Testimonials) ── -->
+    <h2 class="section-title" id="testimonials">آراء العملاء</h2>
+    <section class="testimonials">
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="feedback">"الخامات ممتازة جداً والتوصيل كان سريع، الحذاء مريح جداً في الجري وبقاله معايا شهر كأنه جديد."</p>
+            <h4 class="client-name">أحمد محمد</h4>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="feedback">"بصراحة أول مرة أشتري حذاء أونلاين ويطلع المقاس مظبوط بالظبط، خدمة العملاء متعاونين جداً."</p>
+            <h4 class="client-name">يوسف علي</h4>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="stars">★★★★☆</div>
+            <p class="feedback">"التصميم شيك جداً ونفس الصورة بالظبط، تجربة ممتازة وهكرر الشراء أكيد."</p>
+            <h4 class="client-name">محمود كريم</h4>
+        </div>
+    </section>
+
+    <!-- ── سكشن التواصل معنا (Contact Us) ── -->
+    <h2 class="section-title" id="contact">التواصل معنا</h2>
+    <section class="contact-section">
+        <div class="contact-container">
+            <!-- فورم التواصل -->
+            <form class="contact-form">
+                <input type="text" placeholder="الاسم بالكامل" required>
+                <input type="email" placeholder="البريد الإلكتروني" required>
+                <input type="text" placeholder="الموضوع" required>
+                <textarea rows="5" placeholder="رسالتك هنا..." required></textarea>
+                <button type="submit">إرسال الرسالة</button>
+            </form>
+            
+            <!-- معلومات التواصل الإضافية -->
+            <div class="contact-info">
+                <h3>يسعدنا تواصلك معنا</h3>
+                <p>إذا كان لديك أي استفسار أو شكوى، لا تتردد في مراسلتنا فوراً.</p>
+                <div class="info-item">
+                    <strong>📍 العنوان:</strong> القاهرة، مصر
+                </div>
+                <div class="info-item">
+                    <strong>📞 رقم الهاتف:</strong> +20 123 456 789
+                </div>
+                <div class="info-item">
+                    <strong>✉️ البريد الإلكتروني:</strong> support@shoestore.com
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── الفوتر (Footer) ── -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3 class="footer-logo">متجر أحذية</h3>
+                <p>نحن نقدم أفضل أنواع الأحذية الرياضية والكاجوال بأعلى جودة وأفضل الأسعار في السوق المصري.</p>
+            </div>
+            <div class="footer-col">
+                <h3>روابط سريعة</h3>
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#products">المنتجات</a></li>
+                    <li><a href="#testimonials">آراء العملاء</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>تابعنا على</h3>
+                <div class="social-links">
+                    <a href="#">فيسبوك</a>
+                    <a href="#">إنستغرام</a>
+                    <a href="#">تويتر</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 متجر أحذية. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
